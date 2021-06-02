@@ -5,7 +5,7 @@ function OuterFunction() {
   function InnerFunction() {
     console.log(outerVariable);
   }
-  return InnerFunction();
+  return InnerFunction;
 }
 var innerFunc = OuterFunction();
 innerFunc();
